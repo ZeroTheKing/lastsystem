@@ -783,22 +783,3 @@ message.author.send(`
 })
  
 client.login(process.env.BOT_TOKEN);// لا تغير فيها شيء
-          if (message.content.startsWith("ban")) {
-             if(!message.member.hasPermission('ADMINISTRATOR')) return message.reply();
-             var member= message.mentions.members.first();
-             member.ban().then((member) => {
-                 message.channel.sendMessage("", {embed: {
-                 author: {
-                 },
-                 title: 'بسبب النشر ' + member.displayName + ' تم حظر',
-                 color: 490101,
-                 }
-               });
-           }
-         ) 
-       }
-   });
-
-
-
-client.login(process.env.BOT_TOKEN);// لا تغير فيها شيء
