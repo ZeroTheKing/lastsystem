@@ -731,12 +731,12 @@ client.on("message", (message) => {
 
 client.on('ready', () => {
    console.log(`----------------`);
-      console.log(`Desert Bot- Script By : EX Clan`);
+      console.log(`Desert Bot- Script By : Ayman`);
         console.log(`----------------`);
-      console.log(`ON ${client.guilds.size} Servers '     Script By : EX Clan ' `);
+      console.log(`ON ${client.guilds.size} Servers '     Script By : Ayman ' `);
     console.log(`----------------`);
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`$help | DJ Dam System`,"http://twitch.tv/DJ")
+client.user.setGame(`$help | Last Commnity System`,"http://twitch.tv/Ayman")
 client.user.setStatus("dnd")
 });
  
@@ -776,7 +776,7 @@ message.author.send(`
 ❧ $say ➺ البوت يكرر كلام انته تحدده
 ❧ $id ➺ لعرض معلوماتك
 ❧ $new ➺ لانشاء تذكرة
-─════════════ {✯ By MG | _xDream#9999 ✯} ════════════─
+─════════════ {✯ By Last Community ✯} ════════════─
 **
 `);
 }
