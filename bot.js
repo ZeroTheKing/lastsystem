@@ -736,7 +736,7 @@ client.on('ready', () => {
       console.log(`ON ${client.guilds.size} Servers '     Script By : Ayman ' `);
     console.log(`----------------`);
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`$help | Last Commnity System`,"http://twitch.tv/Ayman")
+client.user.setGame(`> Snow Shop ,`,"http://twitch.tv/Ayman")
 client.user.setStatus("dnd")
 });
  
@@ -776,7 +776,7 @@ message.author.send(`
 ❧ $say ➺ البوت يكرر كلام انته تحدده
 ❧ $id ➺ لعرض معلوماتك
 ❧ $new ➺ لانشاء تذكرة
-─════════════ {✯ By Last Community ✯} ════════════─
+─════════════ {✯ By Snow Shop ✯} ════════════─
 **
 `);
 }
